@@ -3,7 +3,7 @@ const app = express();
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 dotenv.config();
-const userRoute = require("./routes/user");
+const userRoute = require("./routes/User");
 const authRoute = require("./routes/Auth");
 const productRoute = require("./routes/Product");
 const cartRoute = require("./routes/Cart");
