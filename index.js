@@ -22,7 +22,7 @@ const connectDB = () => mongoose
 });
 
 //middlewares
-app.use(cors({ origin: ["http://localhost:3000", "http://localhost:3001", "https://flaame.netlify.app/"]}));
+app.use(cors());
 app.use(express.json());
 
 //body parser 
